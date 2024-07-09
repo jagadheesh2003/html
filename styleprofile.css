@@ -1,0 +1,18 @@
+#img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin-inline-end: 500px; 
+}
+span{
+    margin: auto;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+}
+table{
+    transition: linear;
+    background-color: aqua;
+
+}
