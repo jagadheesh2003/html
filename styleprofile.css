@@ -2,7 +2,9 @@
     height: 150px;
     width: 150px;
     border: 2px solid black;
-    margin-inline-end: 500px; 
+    margin-inline-end: 500px;
+    margin-left: 1200px;
+    margin-right: -80px;
 }
 span{
     margin: auto;
