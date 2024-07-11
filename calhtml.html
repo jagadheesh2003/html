@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: rgb(14, 173, 209);
+        }
+
+        table{
+            background-color: rgb(11, 224, 50);
+       margin-top: 100px;
+       height: 200px;
+       width: 300px;
+        }
+        h2{
+            margin-bottom:100px ;
+        }
+        td{
+            background-color: gold;
+        }
+        tr{
+            background-color: deeppink;
+        }
+        button{
+            background-color: rgb(237, 4, 167);
+        }
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viweport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h2>CALCULATOR</h2>
+    <input type="text" id="result" readonly>
+    <td><button onclick="clearresult('c')">C</button></td>
+    <table>
+        <tr>
+            <td><button onclick="append(7)"><b>7</b></button></td>
+            <td><button onclick="append(8)"><b>8</b></button></td>
+            <td><button onclick="append(9)">9</button></td>
+            <td><button onclick="operate('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="append(4)">4</button></td>
+            <td><button onclick="append(5)">5</button></td>
+            <td><button onclick="append(6)">6</button></td>
+            <td><button onclick="operate('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="append(1)">1</button></td>
+            <td><button onclick="append(2)">2</button></td>
+            <td><button onclick="append(3)">3</button></td>
+            <td><button onclick="operate('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="append(0)">0</button></td>
+            <td><button onclick="append('.')">.</button></td>
+            <td><button onclick="result('=')">=</button></td>
+            <td><button onclick="operate('/')">/</button></td>
+        </tr>
+    </table>
+    </center>
+    <script src="calc.js"></script>
+</body>
+</html>
